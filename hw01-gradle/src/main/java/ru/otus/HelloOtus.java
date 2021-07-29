@@ -4,7 +4,7 @@ import com.google.common.collect.Lists;
 
 import java.util.Collection;
 
-public class App {
+public class HelloOtus {
 
     public static void main(String[] args) {
         Collection<String> testCollection = Lists.newArrayList("Test", "Test2", "Test3");
