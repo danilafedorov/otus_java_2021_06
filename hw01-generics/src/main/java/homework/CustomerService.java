@@ -9,7 +9,7 @@ import java.util.AbstractMap;
 
 public class CustomerService {
 
-    private final NavigableMap<Customer, String> container = new TreeMap<>();
+    private final NavigableMap<Customer, String> container = new TreeMap<>(new CustomerComparator());
 
     public Map.Entry<Customer, String> getSmallest() {
         return getImmutableEntry(container.firstEntry());
